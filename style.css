@@ -3,11 +3,25 @@
   src: url("./assets/fonts/DS-DIGI.TTF");
 }
 
+@font-face {
+  font-family: "Snow-Crab";
+  src: url("./assets/fonts/Snow-Crab.ttf");
+}
+
 .font-digi {
   font-family: "DS-DIGI";
 }
+.font-Snow-Crab {
+  font-family: "Snow-Crab";
+}
+
 body {
   margin: 0;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
 }
 
 video {
@@ -32,4 +46,29 @@ header {
   justify-content: space-between;
   padding: 16px;
   font-size: 32px;
+}
+.quotes {
+  font-size: 32px;
+}
+
+.new-quotes {
+  display: none;
+}
+
+.new-quotes > button {
+  background-color: aquamarine;
+  padding: 8px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.new-quotes-input {
+  border: 1px solid aquamarine;
+  padding: 4px 8px;
+  font-size: 20px;
+}
+
+.new-quotes-input:focus {
+  outline: 2px solid white;
 }
